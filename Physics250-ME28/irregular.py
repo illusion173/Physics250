@@ -4,7 +4,7 @@ import math
 extraNumber = 4 * math.pi * pow(10,-7)
 
 def irregular():
-    choice = input("Decide clockwise [0] or CC [1]")
+    choice = input("Decide clockwise [0] or CC [1]: ")
     if(choice == '1'):
         print("Clockwise")
         print("Input line numbers")
@@ -45,7 +45,7 @@ def irregular():
         if(direction == 'up'):
             num3 = -1 * num3
         Ienclosed = num1 + num2 + num3
-        magField = extraNumber * Ienclosed
+        magField = extraNumber * Ienclosed * pow(10, 6)
         print(magField)
 
 irregular()
