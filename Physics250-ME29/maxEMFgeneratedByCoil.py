@@ -17,7 +17,7 @@ def maximumEMF():
     area = pow(radius,2)*math.pi
     rads = turns*2*math.pi
     ## omega = rads/time
-    maxEMF = loops*area*magField*rads
+    maxEMF = loops*area*magField*rads * pow(10,-4) * 10000
     print(maxEMF)
 
 maximumEMF()

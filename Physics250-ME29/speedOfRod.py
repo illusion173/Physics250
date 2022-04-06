@@ -17,10 +17,12 @@ def rodSpeed():
     emf = float(emf)
     time = float(time)
     distance = distance/100
+    mass = mass/1000
 
 
-    speed = ((emf/(magField*distance)))
-    ##speed = (math.exp(((pow(time,2)*pow(magField,2))/(mass*resistance))*time)) 
-    print(speed)
+    #speed = ((emf/(magField*distance)))
+    #speed = (emf/(magField*distance)) * (1 - (pow(math.e, (-1* ((pow(distance,2) * pow(magField,2))/(mass*resistance))*time))))
+    #speed = (math.exp(((pow(time,2)*pow(magField,2))/(mass*resistance))*time)) 
+    #print(speed)
 
 rodSpeed()
