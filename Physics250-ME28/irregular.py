@@ -24,7 +24,7 @@ def irregular():
         if(direction == 'down'):
             num3 = -1 * num3
         Ienclosed = num1 + num2 + num3
-        magField = extraNumber * Ienclosed
+        magField = extraNumber * Ienclosed * pow(10, 6)
         print(magField)
     if(choice == '0'):
         print("Clockwise")
