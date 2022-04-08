@@ -17,5 +17,6 @@ def findMaxCurrent():
     #note this is .5 * q^2/c + .5L*i^2
     Imax = math.sqrt((2*Energy)/Henry) * pow(10, 3)
     print(Imax)
+    print("mA")
     
 findMaxCurrent()
