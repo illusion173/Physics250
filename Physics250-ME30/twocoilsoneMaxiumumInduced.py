@@ -9,5 +9,4 @@ def maxInducedEMFOtherCoil():
     volts = Henry * Amps * omega
     print(volts)
     
-    
 maxInducedEMFOtherCoil()

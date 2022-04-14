@@ -8,7 +8,7 @@ def energyDensity():
     diamater = diamater / 100
     radius = diamater / 2
     
-    energyDensity = (extraNumber * pow(amps, 2))/(8*pow(radius, 2))
+    energyDensity = pow(10,6)*(extraNumber * pow(amps, 2))/(8*pow(radius, 2))
     print(energyDensity)
     
     

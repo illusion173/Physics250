@@ -1,6 +1,6 @@
 import numpy as np
 import math
-
+1.
 extraNumber = 4 * math.pi * pow(10,-7)
 
 def introducedEMF():
