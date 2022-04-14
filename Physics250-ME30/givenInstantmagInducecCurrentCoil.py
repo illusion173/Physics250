@@ -7,7 +7,7 @@ def inducedCurrent():
     mutualIndustance = mutualIndustance * pow(10, -5)
     amps = float(input('amps (A/s): '))
     
-    inducedCurrent = amps * ((mutualIndustance)/(resistance))
+    inducedCurrent = amps * ((mutualIndustance)/(resistance)) * pow(10,5)
     
     print(inducedCurrent)
     
