@@ -12,6 +12,6 @@ def MagneticField():
 
     area = (mass * accceleration)/(2*(Intensity/c))
 
-    print("sail area:", area / pow(1000,2) , "km^2")
+    print("sail area:", 2*(area / pow(1000,2)) , "km^2")
     
 MagneticField()
