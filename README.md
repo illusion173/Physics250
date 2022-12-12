@@ -8,5 +8,5 @@ To run the .py files, navigate to the saved folder in terminal and unzip the Me_
 
 navigate to the unzipped folder, run:
 
-# Python3 nameoffile.py
+`python3 nameoffile.py`
 
